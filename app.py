@@ -9,7 +9,7 @@ with open("edtech_model.pkl", "rb") as file:
 feature_columns = [ "Problem Solving", "Analytical Thinking", "Logical Reasoning", "Creative Writing",  "Innovation Challenges", "Lateral Thinking", "Leadership", "Communication Skills", "Teamwork"]
 
 st.title("Career Recommendation System")
-st.write("Fill in your skills on a scale of 1-10 to get career suggestions.")
+st.write("Fill in your skills on a scale of 40 - 100 to get career suggestions.")
 
 user_input = []
 for col in feature_columns:
